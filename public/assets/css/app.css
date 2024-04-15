@@ -1,0 +1,37 @@
+@import "grid.css";
+
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+table.fin-table {
+    border-spacing: 0;
+    box-shadow: 1px 1px 6px -2px black;
+    margin: 20px 0;
+}
+
+table.fin-table th {
+    padding: .6em 1.5em;
+}
+
+table.fin-table td {
+    padding: .6em 1.5em;
+}
+
+.gray {
+    background-color: #ddd;
+}
+
+.dark {
+    background-color: #343434;
+    color: whitesmoke;
+}
